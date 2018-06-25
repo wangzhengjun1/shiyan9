@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_select_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看所有联系人"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="请输入联系人姓名"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/btn_select_one"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="查看联系人"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>
